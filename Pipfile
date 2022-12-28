@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-osc = "*"
+aubio-beat-osc = "*"
+pydmxcontrol = {git = "https://github.com/MattIPv4/PyDMXControl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
